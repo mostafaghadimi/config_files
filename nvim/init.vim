@@ -34,3 +34,6 @@ nmap <F8> :TagbarToggle<CR>
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
 inoremap <silent><expr> <c-space> coc#refresh()
 
+:colorscheme github_dark
+let g:github_function_style = "italic"
+let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
