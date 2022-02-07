@@ -98,6 +98,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
+alias vi="nvim"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH="$HOME/.poetry/bin:$PATH"
@@ -124,6 +125,7 @@ prompt_end() {
 }
 export SPARK_HOME=/opt/spark
 
+alias copy=xclip -selection clipboard
 eval $(thefuck --alias)
 
 # poetry autocomplete
